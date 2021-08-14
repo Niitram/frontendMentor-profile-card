@@ -5,8 +5,32 @@
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.text-400{
+    font-weight: 400;
+    color: $Dark-gray;
+}
+.text-700{
+    font-weight: 700;
+
+}
+.text--py-2{
+    padding: 20px 0;
+}
+.text--px-1{
+    padding: 0 5px;
+}
 
 
+.text--zise-2{
+    font-size: 1.2rem;
+}
 
 section{
     display: flex;
@@ -22,12 +46,10 @@ section{
 .card{
     position: relative;
     width: 350px;
+    height: 400px;
     border-radius: 10px;
     background-color: white;
 
-
-
-    border: 1px solid violet;
 
 
     .card__divImg{
@@ -40,6 +62,40 @@ section{
             height: 100%;
             border-top-right-radius: 10px;
             border-top-left-radius: 10px ;
+        }
+    }
+
+    .card__Img{
+        position: absolute;
+        top: 90px;
+        left: 125px;
+        border-radius: 50%;
+        border: white 5px solid;
+    }
+
+    .card__divNombre{
+        position: absolute;
+        top: 220px;
+        left: 110px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .card__divInfo{
+        position: absolute;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        border-top: $Dark-gray 1px solid;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        >div{
+            display: flex;
+            flex-direction: column;
+            
         }
     }
 }
