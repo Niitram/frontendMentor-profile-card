@@ -1,0 +1,45 @@
+@import 'variables';
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $Dark-cyan;
+
+    height: 100vh;
+
+}
+
+
+.card{
+    position: relative;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+
+
+
+    border: 1px solid violet;
+
+
+    .card__divImg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+        img{
+            width: 100%;
+            height: 100%;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px ;
+        }
+    }
+}

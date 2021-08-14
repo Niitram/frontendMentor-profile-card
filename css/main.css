@@ -1,0 +1,32 @@
+/* COLORES */
+/* ### Primary */
+/* ### Neutral */
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #19a2ae;
+  height: 100vh; }
+
+.card {
+  position: relative;
+  width: 350px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid violet; }
+  .card .card__divImg {
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .card .card__divImg img {
+      width: 100%;
+      height: 100%;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px; }
